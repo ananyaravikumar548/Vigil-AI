@@ -1,0 +1,33 @@
+{
+  "cache_version": 1,
+  "entries": {
+    "9d237cbacb73a0d899323b04acf0f3c2cfda9fb4842e78522200b5fe4503cb1c": {
+      "cache_key": "9d237cbacb73a0d899323b04acf0f3c2cfda9fb4842e78522200b5fe4503cb1c",
+      "patient_id": "MICU-402",
+      "text": "The model estimates a 57 % risk, driven by elevated lactate (4.2 mmol/L), respiratory rate (30 breaths/min), temperature (38.5 °C), total bilirubin (2.1 mg/dL), and WBC count (18 ×10⁹/L), all of which increase risk. This estimate requires clinical evaluation and is not a diagnosis.",
+      "model": "openai/gpt-oss-120b",
+      "generated_at": "2026-10-24T05:47:58.594907+00:00"
+    },
+    "bec97144d24c362177f7a908115bdfb9c0d494ae508eea89778cf1957965affd": {
+      "cache_key": "bec97144d24c362177f7a908115bdfb9c0d494ae508eea89778cf1957965affd",
+      "patient_id": "ICU-207",
+      "text": "The model estimates a 37.9 % risk, driven upward by a lactate of 2.1 mmol/L, total bilirubin of 1.2 mg/dL, temperature of 38.0 °C, and respiratory rate of 22 breaths/min, while a bicarbonate of 22 mmol/L modestly lowers the risk. This estimate requires clinical evaluation and is not a diagnosis.",
+      "model": "openai/gpt-oss-120b",
+      "generated_at": "2026-10-24T05:47:59.156173+00:00"
+    },
+    "5ad6954df40e61bcab415d737477b50917b36b1d09c2166564e7968cde7a5c5f": {
+      "cache_key": "5ad6954df40e61bcab415d737477b50917b36b1d09c2166564e7968cde7a5c5f",
+      "patient_id": "ICU-311",
+      "text": "The model estimates a 10.8 % risk. Elevated lactate (1.4) and total bilirubin (0.8) increase the risk, while a respiratory rate of 16, glucose of 110, and WBC of 9 decrease it. This estimate requires clinical evaluation and is not a diagnosis.",
+      "model": "openai/gpt-oss-120b",
+      "generated_at": "2026-10-24T05:47:59.658946+00:00"
+    },
+    "be0dd44340fa837d2813092178349083b6224c488f49b2dc44d3afaa35ba8966": {
+      "cache_key": "be0dd44340fa837d2813092178349083b6224c488f49b2dc44d3afaa35ba8966",
+      "patient_id": "MICU-114",
+      "text": "The model estimates a 2.8 % risk. A respiratory rate of 12, WBC of 6.0 ×10⁹/L, and temperature of 36.2 °C each lower the risk, while lactate of 0.8 mmol/L and total bilirubin of 0.5 mg/dL increase it. This estimate requires clinical evaluation and is not a diagnosis.",
+      "model": "openai/gpt-oss-120b",
+      "generated_at": "2026-10-24T05:48:00.207096+00:00"
+    }
+  }
+}

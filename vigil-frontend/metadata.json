@@ -1,0 +1,6 @@
+{
+  "name": "AEGIS Clinical CDSS",
+  "description": "Multi-modal AI clinical decision support system with sub-acute decompensation & sepsis early warning, explainable counterfactual reasoning, DICOM-native imaging analysis, and EHR integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

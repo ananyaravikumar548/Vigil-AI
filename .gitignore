@@ -1,0 +1,28 @@
+# Local tooling and credentials
+.kilo/
+.DS_Store
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python environments and generated files
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+**/*.db
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+
+# Local/runtime data; model artifacts and metadata remain tracked
+vigil-backend/data/raw/*.psv
+vigil-backend/data/synthetic_raw/*.psv
+vigil-backend/data/processed/sepsis_train.csv
+vigil-backend/server.log

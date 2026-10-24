@@ -1,0 +1,57 @@
+{
+  "dataset": "PhysioNet/CinC Challenge 2019 (random subset of sets A+B)",
+  "n_patients_used": 5656,
+  "positives": 466,
+  "n_train": 4524,
+  "n_test": 1132,
+  "test_positive_count": 93,
+  "positive_rate": 0.0824,
+  "test_positive_rate": 0.0822,
+  "AUROC": 0.7547,
+  "auroc": 0.7547,
+  "auroc_ci95": [
+    0.6975,
+    0.8109
+  ],
+  "average_precision": 0.2682,
+  "brier_score": 0.0684,
+  "threshold": 0.2,
+  "confusion_counts": {
+    "tn": 978,
+    "fp": 61,
+    "fn": 64,
+    "tp": 29
+  },
+  "date": "2026-10-24",
+  "feature_list": [
+    "HR",
+    "MAP",
+    "Resp",
+    "Temp",
+    "O2Sat",
+    "Lactate",
+    "WBC",
+    "Platelets",
+    "Creatinine",
+    "HCO3",
+    "BUN",
+    "Glucose",
+    "Bilirubin_total"
+  ],
+  "features": [
+    "HR",
+    "MAP",
+    "Resp",
+    "Temp",
+    "O2Sat",
+    "Lactate",
+    "WBC",
+    "Platelets",
+    "Creatinine",
+    "HCO3",
+    "BUN",
+    "Glucose",
+    "Bilirubin_total"
+  ],
+  "calibration": "sigmoid (Platt scaling)"
+}

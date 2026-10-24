@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+.env
+vigil.db
+data/raw/*.psv
+data/synthetic_raw/*.psv
+server.log
