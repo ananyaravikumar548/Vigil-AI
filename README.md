@@ -1,6 +1,6 @@
 # Vigil AI
 
-Explainable ICU sepsis-risk decision-support prototype for DSH Hacks V2 (theme: AI x Healthcare).
+Explainable ICU sepsis-risk decision-support prototype (theme: AI x Healthcare).
 
 ## What it is
 
@@ -21,8 +21,6 @@ vigil/
 **Frontend:** React 19, TypeScript, Vite, Tailwind CSS, Lucide icons, Motion  
 **Data:** PhysioNet/CinC Challenge 2019 (de-identified ICU time series), one leakage-aware snapshot per patient
 
-**Submission links:** TODO — add the public repository URL after publishing.
-TODO — add the live demo URL after deployment.
 
 ## Real metrics (holdout test split)
 
